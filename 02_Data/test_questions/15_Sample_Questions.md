@@ -5,7 +5,7 @@
 | **1** | Gói Cloud Server nào có giá dưới 1.500.000đ/tháng? | **CSDL SQL** | Lọc bảng Services, trả về CS-A (1.159.000đ) & CS-B (1.390.000đ). |
 | **2** | Tôi muốn thuê VPS 2 Cores CPU thì giá bao nhiêu? | **CSDL SQL** | Trả về thông tin Gói SSD Cloud VPS B (180.000đ/tháng). |
 | **3** | Gói Email Server Starter có dung lượng bao nhiêu và giá thế nào? | **CSDL SQL** | Trả về dung lượng 120GB Storage, giá 420.000đ/tháng. |
-| **4** | Kiểm tra thông tin đơn hàng `GCN-2026-1003`? | **CSDL SQL** | Tra cứu bảng Orders, trả về thông tin hợp đồng Tập đoàn HTH. |
+| **4** | GCN có những gói VPS SSD giá rẻ nào dưới 500k/tháng?| **CSDL SQL** | Trả về Cloud VPS A (86k), VPS B (180k), VPS C (339k). |
 | **5** | Đơn giá thuê chỗ đặt máy chủ Colocation 300Mbps là bao nhiêu? | **CSDL SQL** | Trả về gói Colo A-300 giá 2.100.000đ/tháng, 1U Rack, 400W. |
 | **6** | Cloud VPS khác gì so với dịch vụ VPS truyền thống? | **RAG Search** | Trích xuất tài liệu về tính sẵn sàng cao, hạ tầng OpenStack + CEPH. |
 | **7** | Chính sách hoàn tiền của GCN áp dụng như thế nào? | **RAG Search** | Nêu chính sách hoàn tiền 100% trong 30 ngày đầu nếu không hài lòng. |
