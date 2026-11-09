@@ -103,17 +103,7 @@ Luồng xử lý dự kiến:
 - Từ chối trả lời khi không tìm thấy bằng chứng phù hợp.
 - Không sử dụng tài liệu ở trạng thái bản nháp làm nguồn thông tin chính thức.
 
-### 9. Phạm vi chưa thực hiện
-
-Trong phiên bản đầu tiên, dự án chưa tập trung vào:
-
-- Tích hợp Facebook và Zalo.
-- Thanh toán trực tuyến.
-- Tự động điều khiển máy chủ.
-- Tự động thay đổi cấu hình Firewall.
-- Giám sát hạ tầng thời gian thực.
-
-### 10. Kết quả dự kiến
+### 9. Kết quả dự kiến
 
 - Website chatbot hoạt động.
 - Backend API.
