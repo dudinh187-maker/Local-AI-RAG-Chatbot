@@ -1,0 +1,16 @@
+services:
+  postgres_rag:
+    image: pgvector/pgvector:pg17
+    container_name: rag_chatbot_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: rag_chatbot
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata_rag:/var/lib/postgresql/data
+
+volumes:
+  pgdata_rag:
