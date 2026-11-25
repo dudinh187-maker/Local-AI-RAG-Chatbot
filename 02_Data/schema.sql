@@ -88,7 +88,7 @@ CREATE TABLE rag_chunks (
     chunk_index INT NOT NULL,
     chunk_content TEXT NOT NULL,
     source_page INT,
-    embedding vector,
+    embedding vector(1024),
     UNIQUE (document_id, chunk_index)
 );
 
